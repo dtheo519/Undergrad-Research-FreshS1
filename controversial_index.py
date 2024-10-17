@@ -1,7 +1,7 @@
 ##AI LAYOUT. DO NOT USE. this index is not based on controversial/total, just controversial.
 import json
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-with open('/home/dom/Documents/Freshman S1/CSCI-Y390/controversial_reviews.json', 'r') as file:
+with open('/home/dom/Documents/Freshman S1/CSCI-Y390/data/controversial_reviews.json', 'r') as file:
     reviews = [json.loads(line) for line in file]
 
 book_sentiment = {}
