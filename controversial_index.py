@@ -38,7 +38,7 @@ for book_id in book_sentiment:
     
     average_sentiment[book_id] = {
         'average_sentiment': total_sentiment / count,
-        'average_controversiality': book_sentiment[book_id]['total_controversiality'] / count,
+        'average_controversiality': book_sentiment[book_id]['controversial_review_count'] / count,
         'review_count': count,
         'controversial_review_count': book_sentiment[book_id]['controversial_review_count']
     }
